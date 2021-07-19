@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+#home {
+  background-image: url(../img/hero-img.png);
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#informa {
+  -webkit-box-shadow: 10px 0 35px -2px #888;
+          box-shadow: 10px 0 35px -2px #888;
+}
+
+#informa h3 {
+  color: #212121;
+  font-size: 18px;
+}
+
+#informa a {
+  color: #ff7575;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#informa img {
+  height: 75px;
+  width: 75px;
+}
+
+.info-2 h5 {
+  font-size: 30px;
+  color: #e74c3c;
+}
+
+.info-2 img {
+  height: 148px;
+}
+
+#getStarted {
+  background-color: #e74c3c;
+}
+
+#getStarted h2 {
+  font-size: 46px;
+  color: white;
+}
+
+#getStarted .button {
+  font-size: 31px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  margin: 30px auto;
+  width: 30%;
+  color: #e74c3c;
+  border-radius: 0%;
+}
+
+#partners i {
+  font-size: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#partners i:hover {
+  color: tomato;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#promo {
+  background-color: #e74c3c;
+}
+
+#promo .box {
+  -webkit-box-shadow: 5px 0 10px -2px #000;
+          box-shadow: 5px 0 10px -2px #000;
+}
+
+#products {
+  background-color: #e8e5e5;
+}
+
+#promises {
+  background-color: #e74c3c;
+}
+
+#promises .fas {
+  font-size: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#promises .fas:hover {
+  color: white;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#step .box {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: #0a0101;
+}
+
+#getStarted2 {
+  background-color: #e74c3c;
+}
+
+footer .footer-links a {
+  color: gray;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
